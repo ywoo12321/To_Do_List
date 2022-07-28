@@ -34,6 +34,7 @@ const TodoInsert = ({onInsertToggle, onInsertTodo, selectedTodo, onRemove, onUpd
                     <div className = "rewrite">
                         <TiPencil onClick = {() => {onUpdate(selectedTodo.id, value)}}/>
                         <TiTrash onClick = {() => {onRemove(selectedTodo.id)}}/>
+                        
                     </div>
                     
                 ) : (
